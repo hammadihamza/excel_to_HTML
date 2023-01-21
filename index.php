@@ -72,12 +72,7 @@
         $('table').DataTable({
             deferRender: true,
             'bSort': false,
-            'columns': [
-                { 'searchable': true },
-                { 'searchable': true },
-                { 'searchable': true },
-                { 'searchable': true }
-               ],
+            'columns': false,
             'searching': {
                 'caseInsensitive': true
                 },
